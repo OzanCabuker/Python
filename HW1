@@ -1,0 +1,16 @@
+  #This program asks user 5 speficied questions, and in the end prints the entered values and their data types.
+
+print('Hello, I want to know you :)')
+a = input('Please tell me your name: ')
+b = int(input('Cool name :) How old are you: '))
+c = input('Where are you from: ')
+d = int(input('Oh,nice. How many years did you live there?: '))
+e = float(input('I have a question for you. Can you tell me what is the answer of 3/2: '))
+x = type(a)
+y = type(b)
+z = type(c)
+k = type(d)
+m = type(e)
+
+print (f'Hello {a}:)\n you are {b}  years old\n from {c}\n you lived there {d} years\n and you answered my question as {e}\n')
+print (f' Type of your name is {x}\n type of your age is {y}\n type of your city is {z}\n type of the time you live in your hometown is {k}\n Type of your answer is {m}\n')
