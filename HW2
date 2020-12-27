@@ -1,0 +1,25 @@
+#This program is used to determine whether the user can go out or not. 
+#If the user is below 18 years old, the user is not allowed to go out.
+
+FirstName = input("Enter your name: ")
+LastName = input("Enter your last name: ")
+Age = int(input("How old are you: "))
+BirthYear = int (input("Enter your birth year: "))
+
+CheckList =[]
+
+CheckList.append(FirstName)
+CheckList.append(LastName)
+CheckList.append(Age)
+CheckList.append(BirthYear)
+
+
+print(CheckList[0])
+print(CheckList[1])
+print(CheckList[2])
+print(CheckList[3])
+
+if Age < 18:
+    print("You can't go out because it's too dangerous")  
+else:
+    print("You can go out to the street")  
